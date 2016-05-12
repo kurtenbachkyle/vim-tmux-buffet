@@ -1,5 +1,5 @@
 #vim-tmux-tab-buffet
-This plugin adds a shortcut to copy the unamed register to the tmux buffer and the reverse operation.
+This plugin adds a shortcut to copy the unnamed register to the tmux buffer and the reverse operation.
 
 ##Usage
 
