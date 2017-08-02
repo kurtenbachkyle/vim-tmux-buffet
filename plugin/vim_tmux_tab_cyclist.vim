@@ -33,7 +33,7 @@ endfunction
 
 function! s:TmuxCommand(args)
   let cmd = s:TmuxOrTmateExecutable() . ' -S ' . s:TmuxSocket() . ' ' . a:args
-  return system(cmd)
+  return system(string(cmd))
 endfunction
 
 "end from https://github.com/christoomey/vim-tmux-navigator
